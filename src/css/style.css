@@ -5,6 +5,11 @@ font-family: 'Gowun Batang', serif;
 font-family: 'Marvel', sans-serif;
 font-family: 'Roboto', sans-serif; */
 
+* {
+  margin: 0;
+  padding: auto;
+}
+
 /*codigo del unicode de fontawesome*/
 ::placeholder {
   font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f007";
@@ -132,7 +137,8 @@ header {
   align-items: center;
   background-color: rgb(148, 145, 187);
   font-family: 'roboto', sans-serif;
-  font-size: 18px;
+  font-size: 30%;
+  height: 22%;
 }
 
 .nav-bar ul{

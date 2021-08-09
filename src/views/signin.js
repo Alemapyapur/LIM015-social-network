@@ -16,13 +16,21 @@ export default () => {
   </section>
     <!-- Seccion donde esta el formulario de SignIn -->
     <form class="data-container">
-        <img class="logo-ibook" src="img/logo-ibook.png" width="200px" alt="logo de iBook"/>
-        <input type="email" class="registro" id="username" placeholder=" E-mail" required>
-          <input type="password" class="registro" id="password1" placeholder=" Password" required>
+          <img class="logo-ibook" src="img/logo-ibook.png" width="200px" alt="logo de iBook"/>
+          <section>
+            <i class="fas fa-user"></i>
+            <input type="email" class="registro" id="username" placeholder="E-mail" required>
+          </section>
+          <section class="i">
+            <i class="fas fa-lock"></i>
+            <input type="password" class="registro" id="password1" placeholder="Password" required>
+          </section>
+
           <input type="button" class="registro-signin" href="#/home" id="sign-in" value="Sign-In">
           <p class="error" id="error"></p>
           <a href="#" class="btn-forget" id="btnForget">¿Olvidaste tu contraseña?</a>
         <p class="text-login">Ingresar por</p>
+
     <!-- Seccion donde estan los botones -->
       <section class="btn-fb-google">
         <button id="btn-fb" class="button"><i class="fab fa-facebook"></i></button>
