@@ -7,7 +7,7 @@ export const addPost = (e) => {
   const privacy = document.getElementById('choosePrivacy').value;
   const user = currentUser();
   const Photo = currentUser().photoURL;
-  // eslint-disable-next-line prefer-const
+
   if (post !== '') {
     sharePost(post, user.email, user.displayName, user.uid, privacy, Photo)
       .then(() => {

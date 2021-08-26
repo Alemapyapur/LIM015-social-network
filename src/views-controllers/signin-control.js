@@ -7,7 +7,6 @@ import {
   leave,
 } from '../firebase/autenticacion.js';
 
-// Para que es el changeRoute?
 const changeRoute = (route) => {
   window.location.hash = route;
 };

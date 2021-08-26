@@ -15,7 +15,6 @@ const firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 
 const init = () => {
-  // verificar duda
   changeViews(window.location.hash);
   window.addEventListener('hashchange', () => changeViews(window.location.hash));
 };

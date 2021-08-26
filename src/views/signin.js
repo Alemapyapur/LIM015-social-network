@@ -40,7 +40,6 @@ export default () => {
 
     `;
 
-  // agregar clase para dar css
   sectionSignIn.innerHTML = template;
   sectionSignIn.setAttribute('class', 'contenedorSign-In');
 
