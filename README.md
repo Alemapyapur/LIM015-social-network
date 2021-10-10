@@ -1,10 +1,10 @@
-# iBook (Social Network)
+# iBook (Social Network)  &nbsp; ![](https://komarev.com/ghpvc/?username=alemapyapur-iBook&color=blueviolet)
 
 ## Índice
 
 * [1. Integrantes](#1-integrantes)
 * [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Definición del producto](#3-definicion-del-producto)
+* [3. Definición del producto](#3-definición-del-producto)
 * [4. Diseño de la Interfaz](#4-diseño-de-la-interfaz)
 * [5. Pruebas unitarias](#5-pruebas-unitarias)
 * [6. Objetivos de aprendizaje](#6-objetivos-de-aprendizaje)
@@ -43,7 +43,7 @@ Desktop
 ![](src/img/signin-desktop.png)
 ![](src/img/signup-desktop.png)
 
-## 5. Pruebas unitarias (unit tests)
+## 5. Pruebas unitarias
 
 * Los tests unitarios llegaron a cubrir un mínimo del 70% de _statements_, _functions_,
   _lines_, y _branches_.
